@@ -1,18 +1,18 @@
 # Flask
 Template docker pour application Flask  | Python3 | Flask 2.2.2
 
-### Commande
+### Lancement du projet
 ===============================================================
 
- Créer le container : ```docker build -t {{tag}} .```
+Depuis le repertoire de ce fichier, ouvrir un terminal, puis executer les commandes suivantes :
+
+ ```docker build -t app .```
  
- Lancer les conteneurs : ```docker-compose up -d```
+ Lancement du conteneur : ```docker-compose up -d```
+ 
+ Vous pourrez ensuite acceder aux sites depuis l'url suivante : ```http://localhost:5000/```
 
- Tomber les conteneurs : ```docker-compose down```
-
-===============================================================
-
- (Vérifier si l'image est bien présente : ```docker images```)
 
 ===============================================================
 
+Tomber le conteneur :  ```docker-compose down```
