@@ -4,7 +4,7 @@ app=Flask(__name__, template_folder='./views/templates/')
 
 @app.route('/home')
 def home():
-    return "Hello rijenth"
+    return "Hello World"
 
 
 if __name__ == '__main__':
